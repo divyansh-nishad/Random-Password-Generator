@@ -14,7 +14,7 @@ def generate_random_password():
     # shuffling the characters
     random.shuffle(characters)
 
-    # picking random characters from the list
+    # creating a password list to pick random characters from the list
     password = []
     for i in range(length):
         password.append(random.choice(characters))
